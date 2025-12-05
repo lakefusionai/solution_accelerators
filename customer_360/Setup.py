@@ -9,14 +9,6 @@ if not catalog_name:
     raise Exception("Catalog name is required to run config")
      
 
-
-# COMMAND ----------
-
-# MAGIC %run "/Workspace/Users/kpasham@lakefusion.ai/CUSTOMER 360 SOLUTION ACCELERATOR/customer360TableCreation"
-# MAGIC
-
-# COMMAND ----------
-
 # MAGIC %run "./customer360TableCreation"
 # MAGIC
 
