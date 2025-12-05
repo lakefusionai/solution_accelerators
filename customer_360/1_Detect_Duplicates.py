@@ -20,9 +20,8 @@ dbutils.widgets.text("catalog_name","")
 
 # COMMAND ----------
 
-notebookPath = "/Users/kpasham@lakefusion.ai/CUSTOMER 360 SOLUTION ACCELERATOR/Detect_Duplicates_MAIN"
-
-
+notebookPath = "current_notebook_path.replace(current_notebook_path.split("/")[-1],"config/Detect_Duplicates_Main")
+    
 # COMMAND ----------
 
 catalog_name = dbutils.widgets.get("catalog_name")
