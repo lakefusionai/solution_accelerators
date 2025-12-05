@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC
-# MAGIC %run "/Workspace/Users/kpasham@lakefusion.ai/CUSTOMER 360 SOLUTION ACCELERATOR/MultiThreading"
+# MAGIC %run ./customer_360/MultiThread.py
 # MAGIC
 # MAGIC
 
